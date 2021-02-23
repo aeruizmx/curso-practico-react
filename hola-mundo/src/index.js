@@ -4,11 +4,13 @@ import './index.css';
 // eslint-disable-next-line
 import App from './App';
 import HolaMundo from './components/HolaMundo';
+import Button from './components/Button';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <HolaMundo />
+    <Button text="Click 3" />
   </React.StrictMode>,
   document.getElementById('root')
 );
