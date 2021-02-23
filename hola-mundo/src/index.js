@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // eslint-disable-next-line
 import App from './App';
+// eslint-disable-next-line
 import HolaMundo from './components/HolaMundo';
 import Button from './components/Button';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HolaMundo />
+    {/* <HolaMundo /> */}
     <Button text="Click 3" />
   </React.StrictMode>,
   document.getElementById('root')
